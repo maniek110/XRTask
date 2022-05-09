@@ -105,7 +105,8 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ENABLE_INPUT_SYSTEM
+-define:PACKAGE_INPUT_SYSTEM_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Users/Marcin/Documents/XRTask/XRTask/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/log4netPlastic.dll"
@@ -310,6 +311,7 @@
 -r:"E:/Program Files/2021.1.25f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
 -r:"E:/Program Files/2021.1.25f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll"
 -r:"E:/Program Files/2021.1.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Cloning/Cloner.cs"

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637876847085950780
-    m_Hash: 3042208005
+      ticks: 637876985416301336
+    m_Hash: 2821486357
   m_LockFileStatus:
     m_FilePath: C:/Users/Marcin/Documents/XRTask/XRTask/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637876847669867548
-    m_Hash: 564942281
+      ticks: 637876985416351326
+    m_Hash: 1659966710
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -79,6 +79,8 @@ m_ResolvedPackages:
     - 1.14.12
     - 1.14.13
     - 1.14.15
+    - 1.14.16
+    - 1.14.17
     - 1.15.1
     - 1.15.4
     - 1.15.7
@@ -86,6 +88,8 @@ m_ResolvedPackages:
     - 1.15.12
     - 1.15.13
     - 1.15.15
+    - 1.15.16
+    - 1.15.17
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -107,6 +111,8 @@ m_ResolvedPackages:
     - 1.14.12
     - 1.14.13
     - 1.14.15
+    - 1.14.16
+    - 1.14.17
     - 1.15.1
     - 1.15.4
     - 1.15.7
@@ -114,6 +120,8 @@ m_ResolvedPackages:
     - 1.15.12
     - 1.15.13
     - 1.15.15
+    - 1.15.16
+    - 1.15.17
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -215,13 +223,15 @@ m_ResolvedPackages:
     - 3.0.10
     - 3.0.12
     - 3.0.13
+    - 3.0.14
     compatible:
     - 3.0.7
     - 3.0.9
     - 3.0.10
     - 3.0.12
     - 3.0.13
-    verified: 3.0.13
+    - 3.0.14
+    verified: 3.0.14
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -399,6 +409,104 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.4
     nextVersion: 
+- packageId: com.unity.inputsystem@1.0.2
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.2
+  source: 1
+  resolvedPath: C:\Users\Marcin\Documents\XRTask\XRTask\Library\PackageCache\com.unity.inputsystem@1.0.2
+  assetPath: Packages/com.unity.inputsystem
+  name: com.unity.inputsystem
+  displayName: Input System
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A new input system which can be used as a more extensible and customizable
+    alternative to Unity's classic input system in UnityEngine.Input.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    compatible:
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    verified: 1.0.2
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - input
+  - events
+  - keyboard
+  - mouse
+  - gamepad
+  - touch
+  - vr
+  - xr
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637468486210000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/InputSystem.git
+    revision: 041def76515febb36a83d1f928cfb7aefb85176c
+    path: 
+  unityLifecycle:
+    version: 1.0.2
+    nextVersion: 
 - packageId: com.unity.test-framework@1.1.29
   testable: 0
   isDirectDependency: 1
@@ -452,12 +560,14 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     verified: 1.1.31
