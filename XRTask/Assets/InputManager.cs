@@ -14,6 +14,7 @@ public class InputManager : IInitializable,IDisposable
     public Action OnInputBackward;
 
     private bool _getForwardInput,_getSidesInput,_getForkUp,_getForkDown;
+    private float _ForwardVal, _SidesVal;
 
     public InputManager()
     {
@@ -23,9 +24,11 @@ public class InputManager : IInitializable,IDisposable
         _playerInput.Input.ForkDown.performed += _ => _getForkDown=true;
         _playerInput.Input.ForkDown.canceled += _ => _getForkDown=false;
         _playerInput.Input.MovementForward.performed += _ => _getForwardInput=true;
-        _playerInput.Input.MovementForward.canceled += _ => _getForwardInput=false;
+        _playerInput.Input.MovementForward.performed += _ => SetForward();
+        _playerInput.Input.MovementForward.canceled += _ => SetForward();
         _playerInput.Input.MovementSides.performed += _ => _getSidesInput=true;
-        _playerInput.Input.MovementSides.canceled += _ => _getSidesInput = true;
+        _playerInput.Input.MovementSides.performed += _ => SetSides();
+        _playerInput.Input.MovementSides.canceled += _ => SetSides();
     }
 
     public bool GetForkDown
@@ -52,6 +55,27 @@ public class InputManager : IInitializable,IDisposable
         set => _getForwardInput = value;
     }
 
+    public float SidesVal
+    {
+        get => _SidesVal;
+        set => _SidesVal = value;
+    }
+
+    public float ForwardVal
+    {
+        get => _ForwardVal;
+        set => _ForwardVal = value;
+    }
+
+    public void SetForward()
+    {
+        ForwardVal = _playerInput.Input.MovementForward.ReadValue<float>();
+    }
+
+    public void SetSides()
+    {
+        _SidesVal = _playerInput.Input.MovementSides.ReadValue<float>();
+    }
 
     public void Initialize()
     {

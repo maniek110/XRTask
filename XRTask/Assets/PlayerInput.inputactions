@@ -7,7 +7,7 @@
             "actions": [
                 {
                     "name": "MovementForward",
-                    "type": "Value",
+                    "type": "PassThrough",
                     "id": "708d40df-f189-459b-9f43-9d6cad2f89a3",
                     "expectedControlType": "",
                     "processors": "",
@@ -15,9 +15,9 @@
                 },
                 {
                     "name": "MovementSides",
-                    "type": "Value",
+                    "type": "PassThrough",
                     "id": "c8445c5a-01ec-4fda-a947-87b62a4f9736",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "Hold(duration=0.1)"
                 },

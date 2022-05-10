@@ -322,6 +322,7 @@
 "Assets/ForkController.cs"
 "Assets/InputManager.cs"
 "Assets/PlayerInput.cs"
+"Assets/VehicleController.cs"
 -langversion:8.0
 
 /deterministic
