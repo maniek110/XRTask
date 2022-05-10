@@ -319,10 +319,10 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/VSSettingsProvider.ref.dll"
-"Assets/ForkController.cs"
-"Assets/InputManager.cs"
-"Assets/PlayerInput.cs"
-"Assets/VehicleController.cs"
+"Assets/Scripts/ForkController.cs"
+"Assets/Scripts/InputManager.cs"
+"Assets/Scripts/PlayerInput.cs"
+"Assets/Scripts/VehicleController.cs"
 -langversion:8.0
 
 /deterministic
